@@ -1,4 +1,4 @@
 ﻿  main.cpp
   FBullCowGame.cpp
+c:\users\lappy\documents\unreal projects\unrealcourse\bullcowgame\fbullcowgame.cpp(14): error C2059: syntax error: ';'
   Generating Code...
-  BullCowGame.vcxproj -> C:\Users\Pram\Documents\Unreal Projects\Section_02\Debug\BullCowGame.exe

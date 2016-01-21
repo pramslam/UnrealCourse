@@ -1,3 +1,7 @@
+/* The game logic (no view code or direct user interaction)
+The game is a simple word game based on mastermind.
+*/
+
 #pragma once
 #include <string>
 
@@ -17,8 +21,7 @@ enum class EGuessStatus
 	OK,
 	Not_Isogram,
 	Wrong_Length,
-	Not_Lowercase,
-	Used_Numbers
+	Not_Lowercase
 };
 
 class FBullCowGame {
@@ -38,9 +41,9 @@ public:
 private:
 	//see constructor for initialization
 	int32 MyCurrentTry;
-	int32 MyMaxTries;
 	FString MyHiddenWord;
 	bool bGameIsWon;
 
 	bool IsIsogram(FString) const;
+	bool IsLowercase(FString) const;
 };
